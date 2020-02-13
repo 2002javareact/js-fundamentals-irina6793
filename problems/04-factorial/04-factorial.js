@@ -2,5 +2,10 @@
 Define function: factorial(someNum)
 Use recursion to compute and return the factorial of someNum.  */
 function factorial(sumNum) {
-  
+  if(n === 1) {
+      return 1
+  }
+  else {
+      return n * factorial(n-1);
+  }
 }
