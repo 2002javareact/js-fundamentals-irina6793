@@ -11,5 +11,7 @@ function fib(n) {
        a = b
        b = c
    }
- 
-}
+ }
+
+ console.log((fib(10)))
+
