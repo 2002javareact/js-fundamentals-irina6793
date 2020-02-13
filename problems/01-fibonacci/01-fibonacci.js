@@ -7,7 +7,9 @@ function fib(n) {
 
    while(true) {
        const c = a + b  /* the while loop will go through the numbers */
-       
+       return c         /* declare c to find the next number from the first 2 variables */
+       a = b
+       b = c
    }
-
+ 
 }
