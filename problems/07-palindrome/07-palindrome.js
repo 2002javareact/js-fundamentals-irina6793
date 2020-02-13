@@ -8,7 +8,7 @@ function isPalindrome(someStr) {
       return true;
   }
   if(someStr[0] === someStr[strLen-1]) {
-      return isPalindrome(someStr.slice)
+      return isPalindrome(someStr.slice(1,str))
   }
-
+   return false
 }
