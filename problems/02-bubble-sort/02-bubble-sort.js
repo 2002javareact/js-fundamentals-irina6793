@@ -3,21 +3,22 @@ Define function: bubbleSort(numArray)
 Use the bubble sort algorithm to sort the array.
 Return the sorted array. */
 function bubbleSort(numArray) {
-  let swap; /* declare a variable that would change the order */
-  let m = numArray.length -1; 
-  let n = numArray;
+  let swap; 
+  let m = numArray.length; 
+  let n = [23, 301, 3, 67, 209]
 
   do {
       swap = false;
       for (let i = 0; i < n; i++) {
-         if (n[i] < n[i+1]) {
+         if (numArray[i] > numArray[i+1]) {
          }
-
-         let temp = n[i];
-         n[i] = n[i+1];
-         n[i+1] = temp;
+         let temp = numArray[i];
+         numArray[i] = numArray[i+1];
+         numArray[i+1] = temp;
          swap = true;
       }
   } while (swap)
-  return(n[i])
+  return numArray
 }
+
+console.log(bubbleSort(n))
