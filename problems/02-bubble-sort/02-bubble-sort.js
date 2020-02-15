@@ -19,5 +19,5 @@ function bubbleSort(numArray) {
          swap = true;
       }
   } while (swap)
-  return;
+  return(n[i])
 }

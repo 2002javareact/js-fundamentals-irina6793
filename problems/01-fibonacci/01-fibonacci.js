@@ -2,15 +2,17 @@
 Define function: fib(n) 
 Return the nth number in the fibonacci sequence. */
 function fib(n) {
-   let a = 0;
-   let b = 1; /*need to have two variables in the sequence */
+   let a = 1;
+   let b = 0; 
+   temp;
 
-   while(true) {
-       const c = a + b  /* the while loop will go through the numbers */
-       return c         /* declare c to find the next number from the first 2 variables */
-       a = b
-       b = c
+   while(num >= 0) {
+      temp =a;
+      a = a+b;
+      b = temp;
+      num--;
    }
+   return b;
  }
 
  console.log((fib(10)))
