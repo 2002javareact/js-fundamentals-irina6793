@@ -6,7 +6,7 @@ function fib(n) {
    let b = 0; 
    temp;
 
-   while(num >= 0) {
+   while(n >= 0) {
       temp =a;
       a = a+b;
       b = temp;
@@ -15,5 +15,5 @@ function fib(n) {
    return b;
  }
 
- console.log((fib(10)))
+ console.log((fib(13)))
 
