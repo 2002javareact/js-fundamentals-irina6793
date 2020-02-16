@@ -2,13 +2,12 @@
 Define function isPalindrome(someStr)
 Return true if someStr is a palindrome, otherwise return false */
 function isPalindrome(someStr) {
-  let isPalindrome = 0;
-  let strLen = someStr.length
-  if(strLen === 0 || strLen ===1) {
+   for(let i = 0; i <someStr.length; i++) {
+     if(someStr[i] !== someStr[someStr.length - 1 - i]) {
+         return false;
+     }
+   }
       return true;
   }
-  if(someStr[0] === someStr[strLen-1]) {
-      return isPalindrome(someStr.slice(1,str))
-  }
-   return false
-}
+    
+console.log(someStr('Anna', David))

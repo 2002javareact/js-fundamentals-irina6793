@@ -21,5 +21,20 @@ Example for printShape("Diamond", 5, "*");
   * 
 */
 function printShape(shape, height, character) {
-  
+   switch(shape) {
+     case 'Square':
+       height = 1;
+       character: '!';
+       break;
+       case 'Triangle':
+         height =2;
+         character: '@';
+         break;
+         case 'Diamond':
+           height=3;
+           character: '#';
+           default:
+             'Throw an error'
+   }
+   return getArea
 }
