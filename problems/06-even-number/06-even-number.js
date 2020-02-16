@@ -3,8 +3,13 @@ Define function: isEven(someNum)
 Return true if even, false if odd.
 Do not use % operator. */
 function isEven(someNum) {
-  if (n === 0) {
+  for(let i = 0; i <someNum; i+2){
+    if(i === someNum) {
       return true
-  }else if (n === 1)
-    return false     
+    }else {
+      return false
+    }
+  }
 }
+
+console.log(someNum(87))
