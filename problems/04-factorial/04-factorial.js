@@ -2,10 +2,11 @@
 Define function: factorial(someNum)
 Use recursion to compute and return the factorial of someNum.  */
 function factorial(sumNum) {
-  if(n === 1) {
-      return 1
+  let sumTotal = 1;
+  for(i = 1; i<=sumNum; i++) {
+    sumTotal = sumTotal *= i;
   }
-  else {
-      return n * factorial(n-1);
+      return sumTotal;
   }
-}
+  
+console.log((factorial(10)));
