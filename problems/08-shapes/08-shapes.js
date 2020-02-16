@@ -25,14 +25,17 @@ function printShape(shape, height, character) {
      case 'Square':
        height = 1;
        character: '!';
+       console.log('Square')
        break;
        case 'Triangle':
          height =2;
          character: '@';
+         console.log('Triangle')
          break;
          case 'Diamond':
            height=3;
            character: '#';
+           console.log('Diamond')
            default:
              'Throw an error'
    }
