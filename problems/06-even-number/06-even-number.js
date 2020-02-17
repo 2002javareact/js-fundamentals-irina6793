@@ -13,3 +13,4 @@ function isEven(someNum) {
 }
 
 console.log(isEven(87))
+console.log(isEven(88))
