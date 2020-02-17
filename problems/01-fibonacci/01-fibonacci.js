@@ -4,13 +4,14 @@ Return the nth number in the fibonacci sequence. */
 function fib(n) {
    let a = 1;
    let b = 0; 
-   temp;
+   let temp = 0;
+   
 
    while(n >= 0) {
       temp =a;
       a = a+b;
       b = temp;
-      num--;
+      n--;
    }
    return b;
  }
