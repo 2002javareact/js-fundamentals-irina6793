@@ -39,5 +39,5 @@ function printShape(shape, height, character) {
            default:
              'Throw an error'
    }
-   return getArea
+   return shape
 }
