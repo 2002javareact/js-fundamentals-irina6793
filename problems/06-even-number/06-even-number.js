@@ -12,4 +12,4 @@ function isEven(someNum) {
   }
 }
 
-console.log(someNum(87))
+console.log(isEven(87))
