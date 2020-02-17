@@ -21,4 +21,4 @@ function bubbleSort(numArray) {
   return numArray
 }
 
-console.log(bubbleSort(n))
+console.log(bubbleSort(23))
