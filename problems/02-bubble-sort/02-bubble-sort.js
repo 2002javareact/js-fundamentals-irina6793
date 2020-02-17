@@ -5,11 +5,10 @@ Return the sorted array. */
 function bubbleSort(numArray) {
   let swap; 
   let m = numArray.length; 
-  let n = [23, 301, 3, 67, 209]
 
   do {
       swap = false;
-      for (let i = 0; i < n; i++) {
+      for (let i = 0; i < m; i++) {
          if (numArray[i] > numArray[i+1]) {
          }
          let temp = numArray[i];
@@ -21,4 +20,6 @@ function bubbleSort(numArray) {
   return numArray
 }
 
-console.log(bubbleSort(23))
+
+let arr = [44,2,77,344]
+console.log(bubbleSort(arr))
